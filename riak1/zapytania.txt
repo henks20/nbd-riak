@@ -1,0 +1,26 @@
+1.
+curl -X PUT -i -H "Content-Type:application/json" -d '{"nazwa": "maslo", "producent": "mlekowita", "cena": 2, "promocja": true}' http://localhost:8098/buckets/s21740/keys/maslo
+curl -X PUT -i -H "Content-Type:application/json" -d '{"nazwa": "ser", "producent": "mlekowita", "cena": 3, "promocja": false}' http://localhost:8098/buckets/s21740/keys/ser
+curl -X PUT -i -H "Content-Type:application/json" -d '{"nazwa": "pieczywo", "producent": "piekarnia", "cena": 10, "promocja": false}' http://localhost:8098/buckets/s21740/keys/pieczywo
+curl -X PUT -i -H "Content-Type:application/json" -d '{"nazwa": "wedlina", "producent": "spolem", "cena": 5, "promocja": true}' http://localhost:8098/buckets/s21740/keys/wedlina
+curl -X PUT -i -H "Content-Type:application/json" -d '{"nazwa": "woda", "producent": "zywiec", "cena": 2, "promocja": false}' http://localhost:8098/buckets/s21740/keys/woda
+2.
+curl -i http://localhost:8098/buckets/s21740/keys/wedlina
+3.
+curl -X PUT -i -H "Content-Type:application/json" -d '{"nazwa": "ser", "producent": "mlekowita", "cena": 3, "promocja": false, "smak": "paprykowy"}' http://localhost:8098/buckets/s21740/keys/ser
+4.
+curl -X PUT -i -H "Content-Type:application/json" -d '{"nazwa": "woda", "producent": "zywiec", "cena": 2}' http://localhost:8098/buckets/s21740/keys/woda
+5.
+curl -X PUT -i -H "Content-Type:application/json" -d '{"nazwa": "maslo", "producent": "mlekowita", "cena": 222, "promocja": true}' http://localhost:8098/buckets/s21740/keys/maslo
+6.
+curl -X DELETE -i http://localhost:8098/buckets/s21740/keys/pieczywo
+7.
+curl -i http://localhost:8098/buckets/s21740/keys/pieczywo
+8.//Spróbowano najpierw PUT, wyskoczył błąd "method not allowed", zaś potem spróbowano metodę POST i udało się dodać
+curl -X PUT -i -H "Content-Type:application/json" -d '{"nazwa": "produkt"}' http://localhost:8098/buckets/s21740/keys/
+curl -X POST -i -H "Content-Type:application/json" -d '{"nazwa": "produkt"}' http://localhost:8098/buckets/s21740/keys/
+9.
+curl -i http://localhost:8098/buckets/s21740/keys?keys=true
+curl -i http://localhost:8098/buckets/s21740/keys/Z8Et2kAWD1yWJwUe97J7Yl2d70w
+10.
+curl -X DELETE -i http://localhost:8098/buckets/s21740/keys/Z8Et2kAWD1yWJwUe97J7Yl2d70w

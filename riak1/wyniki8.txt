@@ -1,0 +1,19 @@
+// Metoda PUT:
+HTTP/1.1 405 Method Not Allowed
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Thu, 25 Jun 2020 20:17:57 GMT
+Content-Type: text/html
+Content-Length: 177
+Allow: GET, HEAD
+
+<html><head><title>405 Method Not Allowed</title></head><body><h1>Method Not Allowed</h1>Method Not Allowed<p><hr><address>mochiweb+webmachine web server</address></body></html>
+
+//Metoda POST
+HTTP/1.1 201 Created
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Location: /buckets/s21740/keys/Z8Et2kAWD1yWJwUe97J7Yl2d70w
+Date: Thu, 25 Jun 2020 20:19:46 GMT
+Content-Type: application/json
+Content-Length: 0
+

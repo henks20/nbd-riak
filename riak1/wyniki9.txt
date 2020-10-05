@@ -1,0 +1,20 @@
+HTTP/1.1 200 OK
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Thu, 25 Jun 2020 20:23:44 GMT
+Content-Type: application/json
+Content-Length: 71
+{"keys":["wedlina","ser","maslo","woda","Z8Et2kAWD1yWJwUe97J7Yl2d70w"]}
+
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/fi6X/2QHEUpkzGNleNSUeYMvCwA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s21740>; rel="up"
+Last-Modified: Thu, 25 Jun 2020 20:19:46 GMT
+ETag: "hTZdJqmDNvoMbNxJPPewE"
+Date: Thu, 25 Jun 2020 20:25:06 GMT
+Content-Type: application/json
+Content-Length: 20
+
+{"nazwa": "produkt"}

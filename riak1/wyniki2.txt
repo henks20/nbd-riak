@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/fi7Xjp0NEUpkzGNl+FObeYMvCwA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s21740>; rel="up"
+Last-Modified: Thu, 25 Jun 2020 19:58:52 GMT
+ETag: "4CBI6YOtKTc6pyi7FLlkGn"
+Date: Thu, 25 Jun 2020 20:02:37 GMT
+Content-Type: application/json
+Content-Length: 72
+
+{"nazwa": "wedlina", "producent": "spolem", "cena": 5, "promocja": true}
+
